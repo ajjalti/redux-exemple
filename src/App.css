@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +40,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.table_history{
+  display: inline-block;
+  margin: auto;
+  border: 1px solid gray;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+td,th{
+  padding: 10px;
+}
+.inputs input{
+  background-color: rgb(236, 208, 156);
+  padding: 10px;
+  cursor:pointer;
+  margin-right:10px ;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border: none;
+}
+.div-reset button{
+  background-color: rgb(98, 137, 234);
+  padding: 10px;
+  cursor:pointer;
+  margin-right:10px ;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border: none;
 }

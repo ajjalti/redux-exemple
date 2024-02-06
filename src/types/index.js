@@ -1,0 +1,5 @@
+export const PLAYER_ONE_SCORE = "PLAYER_ONE_SCORE"
+export const PLAYER_TWO_SCORE = "PLAYER_TWO_SCORE"
+export const RESET_GAME = "RESET_GAME"
+export const PAUSE_REPLAY = "PAUSE_REPLAY"
+
